@@ -1,17 +1,19 @@
 {
-  "name": "ui",
-  "version": "1.0.0",
+  "name": "turborepo-changesets-test-v1-ui",
+  "version": "1.1.4",
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
     "build": "echo 'Building ui'"
   },
-  "devDependencies": {
+  "dependencies": {
     "@types/react": "^18.0.22",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
+    "pi-test-abcd-eslint-config-custom-mar-23-v1": "*",
     "react": "^18.2.0",
     "tsconfig": "*",
     "typescript": "^4.5.2"
